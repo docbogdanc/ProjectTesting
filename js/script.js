@@ -4,7 +4,7 @@ function buildQueryURL() {
   
     var queryParams = { "api-key": "0QM7FTtDo3PpE2Ax0RJWaVeSdFxu9pHT" };
 
-
+}
 
 
 
@@ -28,3 +28,5 @@ $("#run-search").on("click", function (event) {
       })
       .then(updatePage);
   });
+
+  $("#clear-all").on("click", clear);
